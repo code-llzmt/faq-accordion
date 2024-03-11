@@ -1,0 +1,16 @@
+
+body{
+    /* bg color */
+    background-color: hsl(275, 100%, 97%);
+
+    /* bg image */
+    background-image: url(../assets/images/background-pattern-desktop.svg);
+    background-position: center 0px;
+    background-repeat: no-repeat;    
+}
+
+@media(max-width : 375px){
+    body{
+        background-image: url(../assets/images/background-pattern-mobile.svg);
+    }
+}
